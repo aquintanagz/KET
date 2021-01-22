@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Customers &#8211; Nutritia</title>
+	<atom:link href="http://webdesign-finder.com/nutritia/portfolio/customers-extended/feed/" rel="self" type="application/rss+xml" />
+	<link>http://webdesign-finder.com/nutritia</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>
+	Mon, 30 Nov 2020 14:25:21 +0000	</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.8</generator>
+
+<image>
+	<url>http://webdesign-finder.com/nutritia/wp-content/uploads/2017/11/thumbnail.png</url>
+	<title>Customers &#8211; Nutritia</title>
+	<link>http://webdesign-finder.com/nutritia</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Hypnosis Myth Reality</title>
+		<link>http://webdesign-finder.com/nutritia/projects/hypnosis-myth-reality/</link>
+				<pubDate>Thu, 23 Nov 2017 14:45:28 +0000</pubDate>
+		<dc:creator><![CDATA[Nellie]]></dc:creator>
+		
+		<guid isPermaLink="false">http://webdesign-finder.com/nutritia/projects/are-you-struggling-in-life-copy/</guid>
+				<description><![CDATA[Sausage ham hock cupim bresaola porchetta cow brisket swine. Turkey shankle pork chop t-bone boudin turducken kevin sirloin shank short loin. Bresaola pig fatback. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque debitis fuga eum, velit deleniti perferendis fugit]]></description>
+								<content:encoded><![CDATA[<p>Sausage ham hock cupim bresaola porchetta cow brisket swine. Turkey shankle pork chop t-bone boudin turducken kevin sirloin shank short loin. Bresaola pig fatback.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque debitis fuga eum, velit deleniti perferendis fugit necessitatibus inventore expedita accusantium animi provident aspernatur, accusamus in nobis illo? Exercitationem, deserunt esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet minima laboriosam dolores sunt pariatur quia, non maxime excepturi expedita, animi rem earum temporibus quidem molestias. Aut blanditiis, nulla esse accusamus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet minima laboriosam dolores sunt pariatur quia, non maxime excepturi expedita, animi rem earum temporibus quidem molestias. Aut blanditiis, nulla esse accusamus.</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>
