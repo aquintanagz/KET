@@ -27,7 +27,7 @@
     $(window).on('scroll',function() {
         if ($(this).scrollTop() > 10){  
             $('.navbar').addClass("color-set");
-            $('.navbar-brand img').attr('src', 'images/logo-black.png');
+            $('.navbar-brand img').attr('src', 'images/logo.png');
         }
         else{
             $('.navbar').removeClass("color-set");
@@ -55,7 +55,7 @@
 	$('.play-btn').on('click', function(e){
 	    e.preventDefault();
 	    $('.video-overlay').addClass('open');
-	    $(".video-overlay").append('<iframe width="60%" height="60%" src="https://www.youtube.com/embed/1S0GJPzRmd4?version=3&loop=1&autoplay=1&modestbranding=0&showinfo=0&rel=0&end=78" frameborder="0" allowfullscreen></iframe>');
+	    $(".video-overlay").append('<iframe width="60%" height="60%" src="https://www.youtube.com/embed/yTjySVd1hbY?version=3&loop=1&autoplay=1&modestbranding=0&showinfo=0&rel=0&end=78" frameborder="0" allowfullscreen></iframe>');
 	    /* Replace Your video Link */
 	});
 
