@@ -48,3 +48,97 @@ Stack trace:
 [20-Apr-2019 08:37:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/aquintanagz/www.mychefcito.com/php/PHPMailer/src/SMTP.php:254) in /home3/aquintanagz/www.mychefcito.com/php/contact.php on line 54
 [21-Apr-2019 08:37:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/aquintanagz/www.mychefcito.com/php/PHPMailer/src/SMTP.php:254) in /home3/aquintanagz/www.mychefcito.com/php/contact.php on line 54
 [22-Apr-2019 08:40:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/aquintanagz/www.mychefcito.com/php/PHPMailer/src/SMTP.php:254) in /home3/aquintanagz/www.mychefcito.com/php/contact.php on line 54
+[23-Mar-2021 22:58:03 America/Chicago] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php:1981
+Stack trace:
+#0 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1795): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1537): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 M...', '<p>You have rec...')
+#2 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1373): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/aquintanagz/electricsdoors.com/php/contact.php(50): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php on line 1981
+[23-Mar-2021 23:04:52 America/Chicago] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php:1981
+Stack trace:
+#0 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1795): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1537): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 M...', '<p>You have rec...')
+#2 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1373): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/aquintanagz/electricsdoors.com/php/contact.php(50): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php on line 1981
+[23-Mar-2021 23:05:51 America/Chicago] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php:1981
+Stack trace:
+#0 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1795): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1537): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 M...', '<p>You have rec...')
+#2 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1373): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/aquintanagz/electricsdoors.com/php/contact.php(50): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php on line 1981
+[23-Mar-2021 23:12:46 America/Chicago] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php:1981
+Stack trace:
+#0 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1795): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1537): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 M...', '<p>You have rec...')
+#2 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1373): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/aquintanagz/electricsdoors.com/php/contact.php(50): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php on line 1981
+[23-Mar-2021 23:15:54 America/Chicago] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php:1981
+Stack trace:
+#0 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1795): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1537): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 M...', '<p>You have rec...')
+#2 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1373): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/aquintanagz/electricsdoors.com/php/contact.php(50): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php on line 1981
+[23-Mar-2021 23:18:51 America/Chicago] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php:1981
+Stack trace:
+#0 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1795): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1537): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 M...', '<p>You have rec...')
+#2 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1373): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/aquintanagz/electricsdoors.com/php/contact.php(50): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php on line 1981
+[23-Mar-2021 23:28:29 America/Chicago] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php:1981
+Stack trace:
+#0 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1795): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1537): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 M...', '<p>You have rec...')
+#2 /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php(1373): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/aquintanagz/electricsdoors.com/php/contact.php(50): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home3/aquintanagz/electricsdoors.com/php/PHPMailer/src/PHPMailer.php on line 1981
+[23-Mar-2021 23:37:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php:1981
+Stack trace:
+#0 /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php(1795): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php(1537): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 23 M...', '<p>You have rec...')
+#2 /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php(1373): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/aquintanagz/keto-morfosis.mx/php/contact.php(50): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php on line 1981
+[24-Mar-2021 01:01:37 America/Chicago] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php:1981
+Stack trace:
+#0 /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php(1795): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php(1537): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 24 M...', '<p>You have rec...')
+#2 /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php(1373): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/aquintanagz/keto-morfosis.mx/php/contact.php(50): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php on line 1981
+[24-Mar-2021 01:06:45 America/Chicago] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php:1981
+Stack trace:
+#0 /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php(1795): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php(1537): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 24 M...', '<p>You have rec...')
+#2 /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php(1373): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/aquintanagz/keto-morfosis.mx/php/contact.php(50): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php on line 1981
+[24-Mar-2021 01:11:51 America/Chicago] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php:1981
+Stack trace:
+#0 /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php(1795): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php(1537): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 24 M...', '<p>You have rec...')
+#2 /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php(1373): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/aquintanagz/keto-morfosis.mx/php/contact.php(50): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/PHPMailer.php on line 1981
+[24-Mar-2021 01:19:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/SMTP.php:254) in /home3/aquintanagz/keto-morfosis.mx/php/contact.php on line 54
+[24-Mar-2021 01:23:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/SMTP.php:254) in /home3/aquintanagz/keto-morfosis.mx/php/contact.php on line 54
+[24-Mar-2021 01:26:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/SMTP.php:254) in /home3/aquintanagz/keto-morfosis.mx/php/contact.php on line 54
+[24-Mar-2021 01:28:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/SMTP.php:254) in /home3/aquintanagz/keto-morfosis.mx/php/contact.php on line 54
+[24-Mar-2021 01:30:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/SMTP.php:254) in /home3/aquintanagz/keto-morfosis.mx/php/contact.php on line 55
+[24-Mar-2021 01:35:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/aquintanagz/keto-morfosis.mx/php/PHPMailer/src/SMTP.php:254) in /home3/aquintanagz/keto-morfosis.mx/php/contact.php on line 55

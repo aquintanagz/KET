@@ -8,8 +8,8 @@ require './PHPMailer/src/PHPMailer.php';
 require './PHPMailer/src/SMTP.php';
 
 // Obteniendo los datos del formulario
-    $nombre = $_POST['email'];
-    $email = $_POST['email'];
+    $nombre = $_POST['mc-email'];
+    $email = $_POST['mc-email'];
     $telefono = ":";
     $personas = ":";
     $fecha = ":";
@@ -29,14 +29,14 @@ require './PHPMailer/src/SMTP.php';
     $mail = new PHPMailer(TRUE);
 
         $mail->CharSet = 'UTF-8';
-        $mail->setFrom('hola@keto-morfosis.mx', 'holaKeto');
+        $mail->setFrom('mychefcitoteam50@gmail.com', 'mychefcito');
         //$mail->addAddress('enanoup@hotmail.com');
         $mail->addAddress('contacto@keto-morfosis.mx');
         $mail->Subject = 'Contacto desde Website keto-morfosis';
         $mail->isHTML(TRUE);
         $mail->Body = $msg;
         $mail->isSMTP();
-        $mail->Host = 'mail.keto-morfosis.mx';
+        $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Port = 465;
         $mail->Mailer = 'smtp';
@@ -51,10 +51,9 @@ require './PHPMailer/src/SMTP.php';
 
             // Recargar la página despues de 1 segundos y redireccionar a "index.html#contacto"
             
-            //header('Refresh: 1; URL=https://keto-morfosis.mx/');
-           //header("Refresh:0");
+            header('Refresh: 1; URL=index.html');
 
-            echo "<script> location.replace('https://keto-morfosis.mx/') </script>";
+            echo "<script> alert('GRACIAS! EN BREVE NOS PONDREMOS EN CONTACTO CONTIGO'); </script>";
     
         } else {
             echo "Mailer Error: " . $mail->ErrorInfo;

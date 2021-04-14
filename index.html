@@ -130,6 +130,13 @@
                                     <h5>Descargar guia</h5>
                                 </div>
                             </div>
+                             <!-- single-media -->
+                            <div class="col-md-4 col-sm-4">
+                                <div class="single-media">
+                                    <a data-toggle="modal" data-target="#myModal"><i class="fa fa-envelope"></i></a>
+                                    <h5>Contactanos</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>          
                 </div>
@@ -908,7 +915,7 @@
                         </div>
                         <!-- old-price -->
                         <h4 class="our-old-price">Normally<span class="blue-price">$500.00</span></h4>
-                        <a href="https://mpago.la/1FSZnDu">
+                        <a href="https://mpago.la/1FSZnDu" class="site-btn btn-extra hover-effect">
                             <i class="fas fa-dollar-sign"></i>Ordenar Ya
                         </a>
                     </div>
@@ -980,7 +987,7 @@
                         </div>
                         <!-- old-price -->
                         <h4 class="our-old-price">Normally<span class="blue-price">$1275.00</span></h4>
-                        <a href="https://mpago.la/2bZB4Rh">
+                        <a href="https://mpago.la/2bZB4Rh" class="site-btn btn-extra hover-effect">
                             <i class="fas fa-dollar-sign"></i>Ordenar Ya
                         </a>
                     </div>
@@ -1027,24 +1034,18 @@
                         <div class="modal-content">
                             <!-- Modal Header -->
                             <div class="modal-header">
-                                <h4 class="modal-title">Write your info...</h4>
+                                <h4 class="modal-title">Cont&aacute;ctanos</h4>
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                             </div>
                             <!-- Modal body -->
                             <div class="modal-body">
-                                <form method="post" action="bin/mailer.php.html" class="contact-form" id="ajax-contact">
-                                    <!-- input name -->
-                                    <input class="contact-input" type="text" name="name" id="name" placeholder="Your Name">
+                                <form method="post" action="/php/contact.php" class="contact-form" id="ajax-contact">
                                     <!-- input email -->
-                                    <input class="contact-input" type="email" name="email" id="email" placeholder="Email address">
-                                    <!-- phone number -->
-                                    <input type="text" class="contact-input" name="phone" id="phone" placeholder="Phone Number">
-                                    <!-- address -->
-                                    <input type="text" class="contact-input" name="address" id="address" placeholder="Your Address">
-                                    <!-- textarea -->
-                                    <textarea class="contact-textarea" name="message" id="message" placeholder="Enter Message"></textarea>
+                                    <input class="contact-input"  name="email" id="email" placeholder="Correo o celular">
+                                    <!-- textarea 
+                                    <textarea class="contact-textarea" name="message" id="message" placeholder="Enter Message"></textarea>-->
                                     <!-- submit button -->
-                                    <button class="contact-btn hover-effect" type="submit" id="submit" name="submit"><i class="fa fa-rocket"></i>SEND MESSAGE</button>
+                                    <button class="contact-btn hover-effect" type="submit" id="submit" name="submit"><i class="fa fa-rocket"></i>ENVIAR</button>
                                     <!-- Result notification -->
                                     <div id="error-message" class="text-center"></div>
                                     <div id="form-messages"></div>
@@ -1111,7 +1112,7 @@
                         <form action="/php/contact.php" method="post" id="mcFormBook" name="mcFormBook" class="validate" target="_blank" >
                             <div class="input-group">
                                
-                                <input class="form-control" id="mc-email" type="email" name="email" placeholder="Your email...">
+                                <input class="form-control" id="mc-email" type="email" name="email" placeholder="correo o celular">
                                 <div class="input-group-btn">
                                  
                                     <button class="subscribe-btn hover-effect" name="Subscribe" type="submit">SUBMIT</button>
@@ -1136,6 +1137,34 @@
     <!--================================================================================= 
                                  end footer
     ==================================================================================-->
+<!-- Crispi
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="95417efa-5c1b-43d9-b4ef-5cafcfa76cbd";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+-->
+
+<!-- Smartsupp Live Chat script 
+<script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = '1b955948e619b9d3e856132155d12e12c1a395cd';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script>
+-->
+
+<script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = '1b955948e619b9d3e856132155d12e12c1a395cd';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script>
+
     <!--================================================================================= 
                             start all scripts
     ==================================================================================-->
